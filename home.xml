@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+
+<rss>
+	<channel> 
+		<title>XSLT-based RSS Reader</title>
+		<link>http://nfriedly.com/stuff/rss/</link>
+		
+		<item>
+			<title>About</title>
+			<description>
+				<![CDATA[
+				<p>This program uses a simple php script to inject my XSLT stylesheet into any RSS feed. This page here is, in fact, an RSS XML file run through this script. Use View Source to see what I mean, then compare it to <a href="home.xml">home.xml</a>.</p>
+				<p>Both Firefox and Internet Explorer handle XML in a standard way in <i>every case except RSS</i>. In the case of an RSS feed, each of the browsers try to do their own thing with it and completely ignore any stylesheet that the author of the feed may be using. See below for how I worked around this in each browser. </p>
+				<p>I also run a couple of javascript functions on the data once it's loaded to make sure that you don't get escaped code or un-padded text.</p>
+				<p>To use this script, once you veify that it is working in your browser, simply type the url of an RSS feed into the box to the upper right. To help you get started, a few example feeds are listed to the right.</p>
+				<p>Currently RSS 0.92 and RSS 2.0 are supported. (RSS 1.0 uses a namespaced root element that makes everything else break.)
+				]]>
+			</description>
+		</item>
+		
+		<item>
+			<title>Internet Explorer</title>
+			<description>
+				<![CDATA[
+				<p>Internet explorer does it's own thing with RSS by default, but disableing it is fairly straightforward:</p>
+	
+				<p><b>To disable RSS previews in Internet Explorer:</b></p>
+					<OL>
+						<LI>Click on the Tools menu,</LI>
+						<LI>Click on the Internet Options sub-menu,</LI>
+						<LI>Click on the Content tab,</LI>
+						<LI>Click on the Settings button of the Feed section to bring up Feed Settings dialog box,</LI>
+						<LI>Un-tick the check-box of Turn On Feed Reading View option.</LI>
+						<LI>Click OK all the way to close all opened dialog boxes.</LI>
+						<LI>Restart Internet Explorer</LI>
+					</OL>
+				<P><SMALL><I>Instructions curteousy of <A HREF="http://www.walkernews.net/2007/03/25/ie-7-xml-feed-display-rss-feed-validation/">http://www.walkernews.net/2007/03/25/ie-7-xml-feed-display-rss-feed-validation/</A>.</I></SMALL></P>
+				]]>
+			</description>
+		</item>		
+		
+		<item>
+			<title>Firefox</title>
+			<description>
+				<![CDATA[
+				<p>Firefox was much harder to figure out that Internet Explorer. Firefox has no built-in method for disabling it's RSS Preview feature, not even in the about:config section!</p>
+				<p>However, during my research, I learned that Firefox makes it's decision about how to handle the file very early on in the process, before the file is even fully read!</p>
+				<p>After learning this, I found through my own testing that injecting about 600 characters of whitespace into the beginning of the feed will trick Firefox into treating it in a standard manner.</p>
+				
+				]]>
+			</description>
+		</item>
+	</channel>
+</rss>

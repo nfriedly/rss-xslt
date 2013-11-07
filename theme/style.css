@@ -1,0 +1,186 @@
+/*
+
+Theme Name: Purple Swirl
+
+Theme URI: http://www.themelab.com/free-wordpress-themes/
+
+Description: Design by <a href="http://www.ceneb.com">Ceneb</a>.  WordPressed by <a href="http://www.themelab.com">Theme Lab</a>
+
+Version: 1.0
+
+Author: Theme Lab
+
+Author URI: http://www.themelab.com/
+
+*/
+
+
+
+body {margin:70px 0 0 0;font-family:arial;color:#666;font-size:12px;background:url(images/bg.png) no-repeat #22262f;}
+
+#page-wrap {width:981px;margin:0 auto;}
+
+#header-wrap {border:solid 1px #1b1c1e;width:980px;}
+
+#header {height:50px;width:963px;background:url(images/headerbg.png) repeat-x #1b1c1e;border:solid 1px #22262f;padding-left:15px;padding-top:10px;padding-bottom:10px;}
+
+#header h1 {font-size:17px;margin:0;}
+
+#header h1 a {color:#FFF;text-decoration:none;}
+
+#header p {margin:0;color:#999;}
+
+#header p a {color:#999;text-decoration:none;font-weight:bold;}
+
+#header p a:hover {text-decoration:underline;}
+
+#logo {float:left;margin-top:7px;}
+
+#search {float:right;margin-right:10px;margin-top:14px;}
+
+#search .field {background:#292d38;border: solid 1px #22262f;height:18px;width:235px;float:left;padding-top:3px;text-indent:5px;color:#4f5869;}
+
+#search .field:hover {background:#1b1c1e;border: solid 1px #22262f;}
+
+#search .button {margin-left:7px;height:25px;background:#1b1c1e;border: solid 1px #22262f;float:left;color:#4f5869;}
+
+#menu {height:29px;width:980px;background:url(images/menubg.png)  repeat-x;border:solid 1px #42495b;border-top:0;list-style:none;margin:0px;padding:0;}
+
+#menu li {float:left;list-style-type:none;}			
+
+#menu li a {float:left;color:#4f5869;font-weight:bold;padding-left:18px;padding-right:18px;line-height:28px;text-decoration:none;background: transparent url(images/menudivider.png) center right no-repeat;}
+
+#menu li a:hover {text-decoration:none;color:#6b768e;background:url(images/menuroll.png) no-repeat;}
+
+#content{float:left;}
+
+.post {width:551px;margin-top:25px;}
+
+.post .title {height:37px;background:url(images/posttitle.png) no-repeat;}
+
+.post .title h3 {font-size:14px;margin:0;color:#4f5869;text-align:center;line-height:42px;}
+
+.post .title h3 a {color:#4f5869;text-decoration:none;}
+
+.post .title h3 a:hover {text-decoration:underline;}
+
+.post .info {background:#1b1d20;padding:10px 0px 10px 10px;overflow:hidden;color:#4f5869;}
+
+.post .info .gravatar {float:left;width:50px;height:50px;background:#232730;border:solid 1px #4f5869;}
+
+.post .info .content {float:left;background:#1b1d20;width:473px;margin-left:10px;margin-top:6px;}
+
+.post .info .content p{color:#4f5869;}
+
+.post .info .author {float:left;}
+
+.post .info .date {float:left;margin-top:7px;padding-right:18px;}
+
+.post .info .category {float:left;margin-top:7px;}
+
+.post .info .category a {color:#4f5869;text-decoration:none;font-weight:bold;}
+
+.post .info .category a:hover {text-decoration:underline;}
+
+.post .info .comments {float:left;margin-top:7px;padding-right:10px;text-align:right;background:url(images/comment.png) 0% 55% no-repeat;padding-left:13px;}
+
+.post .info .comments a {color:#4f5869;text-decoration:none;font-weight:bold;}
+
+.post .info .comments a:hover {text-decoration:underline;}
+
+.post-wrap {border:solid 1px #1b1c1e;width:547px;}
+
+.post .content {margin-left:1px;width:545px;background:#1e2024;overflow:hidden;}
+
+.post .content p {/* float:left; */ margin:0;padding-left:10px;}
+
+.post .post-content p {padding:10px;}
+
+.post .post-content a{color:#4a6bb7;text-decoration:none;}
+
+.post .post-content a:hover{color:#4f5869;text-decoration:underline;}
+
+.post h3#comments, .post h3#respond{padding-left:10px;}
+
+.pagination a{color:#4a6bb7;text-decoration:none;}
+
+.pagination a:hover{color:#4f5869;text-decoration:underline;}
+
+.pagination{margin-top:10px;}
+
+img.avatar{float:left;padding-right:5px;}
+
+#sidebar{float:left;margin-left:10px;width:420px;}
+
+#sidebar #ads{width:419px;}
+
+#sidebar #ads .title {height:37px;background:url(images/adtitle.png) no-repeat;}
+
+#sidebar #ads .title h3 {font-size:14px;margin:0;color:#4f5869;text-align:center;line-height:42px;}
+
+#sidebar #ads .wrapper {border:solid 1px #1b1c1e;width:418px;}
+
+#sidebar #ads .content {margin-left:1px;width:416px;background:#1e2024;overflow:hidden;padding-top:10px;padding-bottom:5px;}
+
+#sidebar #ads .content img{border:0;margin-left:7px;margin-bottom:5px;border:solid 1px #000;}
+
+#sidebar #ads .content img:hover {border:solid 1px #FFF;}
+
+#sidebar #left{float:left;width:199px;}
+
+#sidebar #right {float:right;width:199px;}
+
+#sidebar .title {height:37px;background:url(images/sidetitle.png) no-repeat;margin-top:25px;}
+
+#sidebar .title h3 {font-size:14px;margin:0;color:#4f5869;text-align:center;line-height:42px;}
+
+#sidebar .wrapper {border:solid 1px #1b1c1e;width:197px;}
+
+#sidebar .content {margin-left:1px;width:195px;background:#1e2024;overflow:hidden;padding-top:10px;padding-bottom:5px;}
+
+#sidebar ul{list-style-type:none;margin:0;padding:0 10px 10px 10px;}
+
+#sidebar li { background: url(images/arrow.png) left center no-repeat;padding-left:13px;padding-bottom:6px;}
+
+#sidebar a{color:#666;text-decoration:none;}
+
+#sidebar a:hover{color:#4a6bb7;text-decoration:underline;}
+
+#sidebar #calendar_wrap a {text-decoration:underline;}
+
+#footer-wrap {float:left;border:solid 1px #1b1c1e;width:980px;margin-top:25px;margin-bottom:15px;}
+
+#footer {height:38px;width:978px;background:url(images/footerbg.png) repeat-x #1b1c1e;border:solid 1px #22262f;padding-top:6px;}
+
+#footer p{text-align:center;margin:0;}
+
+#footer a{color:#666;text-decoration:none;font-weight:bold;}
+
+#footer a:hover{text-decoration:underline;}
+
+/* Nathans Additions */
+
+.info a { color: #4F5869; }
+
+.post-content {padding-bottom:5px;}
+
+.post-content img {
+	float:left;
+	margin-right: 10px;
+	margin-bottom:5px;
+}
+
+.post .content p {
+	padding: 0 10px;
+	margin:10px 0;
+}
+
+/* to make it centered in IE */
+body { text-align:center;} 
+#page-wrap {text-align:left;}
+
+/* to make super-long headlines not look terible */
+.post .title h3 {
+	height: 42px;
+	overflow:hidden;
+}
