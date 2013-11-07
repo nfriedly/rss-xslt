@@ -14,6 +14,8 @@
 				<p>I also run a couple of javascript functions on the data once it's loaded to make sure that you don't get escaped code or un-padded text.</p>
 				<p>To use this script, once you veify that it is working in your browser, simply type the url of an RSS feed into the box to the upper right. To help you get started, a few example feeds are listed to the right.</p>
 				<p>Currently RSS 0.92 and RSS 2.0 are supported. (RSS 1.0 uses a namespaced root element that makes everything else break.)
+				<p>Read more about this tool at <a href="http://nfriedly.com/techblog/2009/06/how-to-use-xslt-to-style-an-rss-feed/">http://nfriedly.com/techblog/2009/06/how-to-use-xslt-to-style-an-rss-feed/</a>
+				or view the source code on Github: <a href="https://github.com/nfriedly/rss-xslt/">https://github.com/nfriedly/rss-xslt/</a>
 				]]>
 			</description>
 		</item>
